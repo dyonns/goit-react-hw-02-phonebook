@@ -1,0 +1,32 @@
+form {
+    margin-left: 15px;
+    width: 400px;
+    padding: 10px;
+    border: 2px solid black;
+    &:hover {
+            border: 3px solid red;
+        }
+}
+
+
+.inp{
+    margin-left: 15px;
+}
+
+.btn {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+    border: 2px solid black;
+    &:hover {
+            border-color: rgb(32, 32, 207);
+            background-color: black;
+            color: white;
+        }
+}
+
+p{
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
